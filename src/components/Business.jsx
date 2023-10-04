@@ -1,6 +1,9 @@
+import { features } from "../constants"
+import styles from "../style"
+import Button from "./Button"
 const Business = () => {
   return (
-    <div>Business</div>
+    <div></div>
   )
 }
 
