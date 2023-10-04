@@ -14,6 +14,8 @@ import {
   Testimonials,
 } from "./components";
 function App() {
+  // Learning GIT
+
   return (
     <div className="bg-black w-full overflow-hidden">
       <div className={`${styles.paddingX} ${styles.flexCenter}`}>
