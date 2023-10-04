@@ -1,7 +1,10 @@
-const Billing = () => {
-  return (
-    <div>Billing</div>
-  )
-}
+import { apple, bill, google } from "../assets";
+import styles, {layout} from "../style";
 
-export default Billing
+const Billing = () => {
+  return <section id="product" className={layout.sectionReverse}>
+
+  </section>;
+};
+
+export default Billing;
