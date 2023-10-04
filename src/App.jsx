@@ -1,16 +1,39 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
-
+import styles from "./style";
+import {
+  Navbar,
+  Billing,
+  Business,
+  Button,
+  CardDeal,
+  Clients,
+  CTA,
+  FeedbackCard,
+  Footer,
+  Hero,
+  Stats,
+  Testimonials,
+} from "./components";
 function App() {
-  const [count, setCount] = useState(0)
-
   return (
-    <>
-      <p>Tailwind Website</p>
-    </>
-  )
+    <div className="bg-black w-full overflow-hidden">
+      <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Navbar />
+        </div>
+      </div>
+      <div className={`bg-black ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Hero />
+        </div>
+      </div>
+      <div className={`bg-black ${styles.paddingX} ${styles.flexStart}`}>
+        <div className={`${styles.boxWidth}`}>
+          <Stats /> <Business /> <Billing /> <CardDeal /> <Testimonials />{" "}
+          <Clients /> <CTA /> <Footer />
+        </div>
+      </div>
+    </div>
+  );
 }
 
-export default App
+export default App;
