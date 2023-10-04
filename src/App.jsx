@@ -14,7 +14,7 @@ import {
   Testimonials,
 } from "./components";
 function App() {
-  // Learning GIT
+  // Learning GIT & Commands
 
   return (
     <div className="bg-black w-full overflow-hidden">
