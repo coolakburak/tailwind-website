@@ -3,7 +3,9 @@ import styles from "../style"
 import Button from "./Button"
 const Business = () => {
   return (
-    <div></div>
+    <section className="">
+      <p>Burak Colak</p>
+    </section>
   )
 }
 
